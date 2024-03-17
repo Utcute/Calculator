@@ -1,0 +1,1 @@
+This calculator calcules normal basic operations also it calcules getting mod, factoriel, exponentiate and square root. You can change calculator's background and you can save it. When you open it again saved color will be your default color.
