@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div id="hesap">
+        <div>
+            <table border="2">
+                <tr>
+                    <td colspan="5" id="sonuc"></td>
+                    <td><button id="sil">⌫</button></td>
+                </tr>
+                <tr>
+                    <td><button class="sayi">7</button></td>
+                    <td><button class="sayi">8</button></td>
+                    <td><button class="sayi">9</button></td>
+                    <td><button class="islem">/</button></td>
+                    <td><button id="mod">M</button></td>
+                    <td rowspan="3"><button id="esit">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="sayi">4</button></td>
+                    <td><button class="sayi">5</button></td>
+                    <td><button class="sayi">6</button></td>
+                    <td><button class="islem">*</button></td>
+                    <td><button id="faktoriyel">F</button></td>
+                </tr>
+                <tr>
+                    <td><button class="sayi">1</button></td>
+                    <td><button class="sayi">2</button></td>
+                    <td><button class="sayi">3</button></td>
+                    <td><button class="islem">-</button></td>
+                    <td><button id="us">^</button></td>
+                </tr>
+                <tr>
+                    <td><button id="temizle">C</button></td>
+                    <td><button class="sayi">0</button></td>
+                    <td><button id="ondalik" class="sayi">.</button></td>
+                    <td><button class="islem">+</button></td>
+                    <td><button id="karekok">√</button></td>
+                    <td><button id="kaydet">S</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="kutu">
+            <textarea name="text" id="gecmis" readonly></textarea>
+        </div>
+    </div>
+
+    <div id="renkliKutu" class="kutu">
+        <input type="color" id="renkSec">
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
